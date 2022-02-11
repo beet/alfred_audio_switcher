@@ -1,6 +1,6 @@
 # Alfred Audio Switcher
 
-Alfred workflow to quickly switch between audio devices.
+Alfred workflow to quickly switch between audio **output** devices.
 
 ![pic](images/icon.png)
 
@@ -14,36 +14,32 @@ For this to you work, you need to use [Homebrew](https://brew.sh/) to install `s
 brew install switchaudio-osx
 ```
 
-## Switch to headphones
+## Switching between audio devices
 
-* Keyword: `ash`
+Provides keyword inputs to quickly switch between headphones, speakers, and an external device:
 
-Currently hard-coded to the audio device called "External Headphones"
+| Device           | Keyword |
+| ---------------- | ------- |
+| Headphones       | `ash`   |
+| Speakers         | `asp`   |
+| External         | `asx`   |
 
-## Switch to speakers
-
-* Keyword: `asp`
-
-Currently hard-coded to the audio device called "MacBook Pro Speakers"
-
-## Switch to external device
-
-* Keyword: `asx`
-
-Currently hard-coded to the audio device called "DELL U2720Q", which happens to be my monitor.
+The first time each is used, it will prompt you to select the audio source for that device and then save it for next time _(which may take a few seconds to take affect)_. The next time it should switch to that device immediately.
 
 **NOTE:** the macOS multimedia volume controls don't don't seem to affect the volume of external audio devices.
+
+### Changing saved audio devices
+
+Once you've switched to an audio device and it has been saved, if you want to change it to a different device, click the `[X]` icon in the top right of the workflow settings to access the Workflow Environment Variants, and delete the value.
+
+Then when using the relevant keyword for that device next time, it should prompt you to select it again and save it.
 
 ## Select audio source
 
 * Keyword: `asel`
 
-Presents a list of audio devices and lets you choose:
+Can use this at any time to present a list of _all_ audio devices currently connected to your system:
 
 ![pic](images/select_audio_device.png)
 
-## Todo
-
-- [x] Change "monitor" to "external device" or something
-- [x] Use workflow variables instead of hard-coded strings for headphones, speakers, etc
-- [ ] Use the select audio source workflow to assign devices to heaphones & speakers the first time
+Does not save the selected value.
