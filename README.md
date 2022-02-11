@@ -44,6 +44,6 @@ Presents a list of audio devices and lets you choose:
 
 ## Todo
 
-- [ ] Change "monitor" to "external device" or something
-- [ ] Use workflow variables instead of hard-coded strings for headphones, speakers, etc
+- [x] Change "monitor" to "external device" or something
+- [x] Use workflow variables instead of hard-coded strings for headphones, speakers, etc
 - [ ] Use the select audio source workflow to assign devices to heaphones & speakers the first time

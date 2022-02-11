@@ -10,30 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E18687F9-95DD-4A79-8DF4-3592C9C6286B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>802D5FBC-D566-4EAB-849F-AC9AABD6AE6F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>079ED46E-DDD0-44C2-8089-4F3EBEFF6707</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+				<string>C8A8002F-B413-4509-B43A-9E7776401A27</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -46,7 +23,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>079ED46E-DDD0-44C2-8089-4F3EBEFF6707</string>
+				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -56,7 +33,76 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>30DCD902-1467-4CE2-A924-898D840D50E3</string>
+				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2F7E8A8B-5060-4A77-B416-83E500C7261F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CADF9BD6-3F0B-4373-9DF9-340508615B79</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>49778D70-5A39-40D0-B412-3AEEFC0FB088</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CADF9BD6-3F0B-4373-9DF9-340508615B79</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>70E414DC-BC7B-4DC4-8316-E78DE658D2ED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -69,43 +115,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AE2FF55E-67CB-4A10-A78C-EB23A388A78D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>4456E2CA-9DE9-47D4-9ACD-A2D9A46CCBD9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>8677B646-2120-426B-AAA4-F0AAFAEF43EE</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>AE2FF55E-67CB-4A10-A78C-EB23A388A78D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+				<string>2F7E8A8B-5060-4A77-B416-83E500C7261F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -118,17 +128,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8677B646-2120-426B-AAA4-F0AAFAEF43EE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>68AA05EF-54ED-4E8B-A7E8-A024BEF9CD03</string>
+				<string>49778D70-5A39-40D0-B412-3AEEFC0FB088</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -137,11 +137,116 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E18687F9-95DD-4A79-8DF4-3592C9C6286B</key>
+		<key>BEB65075-1263-4D24-808C-B6B29E5C3C15</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C8A8002F-B413-4509-B43A-9E7776401A27</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CADF9BD6-3F0B-4373-9DF9-340508615B79</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CADF9BD6-3F0B-4373-9DF9-340508615B79</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEB65075-1263-4D24-808C-B6B29E5C3C15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E39327B0-7BD5-413C-AB58-8C271E056095</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D427E874-D8B4-470E-8C2F-D6EFC48348BB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F4978247-F19A-4A99-86C9-CFF439F6271B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>70E414DC-BC7B-4DC4-8316-E78DE658D2ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>74CBDFBB-B617-4D89-9726-2FCAD0C12485</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D427E874-D8B4-470E-8C2F-D6EFC48348BB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -161,29 +266,6 @@
 	<string>Audio Switcher</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/switchaudiosource -s "External Headphones"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8677B646-2120-426B-AAA4-F0AAFAEF43EE</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -208,46 +290,112 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
 				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Audio output switched to headphones</string>
-				<key>title</key>
-				<string>Audio Switcher</string>
+				<key>variables</key>
+				<dict>
+					<key>selected_device</key>
+					<string>headphones</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>68AA05EF-54ED-4E8B-A7E8-A024BEF9CD03</string>
+			<string>49778D70-5A39-40D0-B412-3AEEFC0FB088</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/switchaudiosource -s "MacBook Pro Speakers"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>soundname</key>
+				<string>Funk</string>
+				<key>systemsound</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
-			<string>E18687F9-95DD-4A79-8DF4-3592C9C6286B</string>
+			<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:headphones_device}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BEB65075-1263-4D24-808C-B6B29E5C3C15</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:selected_device}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>headphones</string>
+						<key>outputlabel</key>
+						<string>Heaphones</string>
+						<key>uid</key>
+						<string>E39327B0-7BD5-413C-AB58-8C271E056095</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:selected_device}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>speakers</string>
+						<key>outputlabel</key>
+						<string>Speakers</string>
+						<key>uid</key>
+						<string>F4978247-F19A-4A99-86C9-CFF439F6271B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:selected_device}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>external</string>
+						<key>outputlabel</key>
+						<string>External</string>
+						<key>uid</key>
+						<string>74CBDFBB-B617-4D89-9726-2FCAD0C12485</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>CADF9BD6-3F0B-4373-9DF9-340508615B79</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -273,36 +421,54 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
+				<key>argument</key>
+				<string>{var:speakers_device}</string>
+				<key>passthroughargument</key>
 				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Audio output switched to speakers</string>
-				<key>title</key>
-				<string>Audio Switcher</string>
+				<key>variables</key>
+				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>802D5FBC-D566-4EAB-849F-AC9AABD6AE6F</string>
+			<string>D427E874-D8B4-470E-8C2F-D6EFC48348BB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>soundname</key>
-				<string>Funk</string>
-				<key>systemsound</key>
-				<true/>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>selected_device</key>
+					<string>speakers</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+			<string>C8A8002F-B413-4509-B43A-9E7776401A27</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:external_device}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>70E414DC-BC7B-4DC4-8316-E78DE658D2ED</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -314,7 +480,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>/usr/local/bin/switchaudiosource -s "DELL U2720Q"</string>
+				<string>query=$1
+
+/usr/local/bin/switchaudiosource -s "$query"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -325,7 +493,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>AE2FF55E-67CB-4A10-A78C-EB23A388A78D</string>
+			<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -353,6 +521,26 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>selected_device</key>
+					<string>external</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2F7E8A8B-5060-4A77-B416-83E500C7261F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -360,39 +548,16 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>Audio output switched to monitor</string>
+				<string>Audio output switched to {query}</string>
 				<key>title</key>
 				<string>Audio Switcher</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>4456E2CA-9DE9-47D4-9ACD-A2D9A46CCBD9</string>
+			<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/switchaudiosource -s "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>079ED46E-DDD0-44C2-8089-4F3EBEFF6707</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -450,124 +615,123 @@ print json
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>30DCD902-1467-4CE2-A924-898D840D50E3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Alfred Workflow to switch audio devices.
+
+Requires switchaudiosource to be installed with `brew install switchaudio-osx`</string>
 	<key>uidata</key>
 	<dict>
 		<key>059C7DE3-D813-487B-9203-42E1B0683513</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>385</integer>
+			<integer>145</integer>
 		</dict>
-		<key>079ED46E-DDD0-44C2-8089-4F3EBEFF6707</key>
+		<key>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>280</integer>
+			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>860</integer>
+			<integer>230</integer>
 		</dict>
 		<key>197D094B-47AC-495F-9397-41F710D42765</key>
 		<dict>
 			<key>xpos</key>
-			<integer>55</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>920</integer>
+			<integer>395</integer>
 		</dict>
-		<key>30DCD902-1467-4CE2-A924-898D840D50E3</key>
+		<key>2F7E8A8B-5060-4A77-B416-83E500C7261F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>985</integer>
+			<integer>295</integer>
 		</dict>
 		<key>33383FFA-0734-4D1B-8544-AF2BE673B5E8</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>465</integer>
+			<integer>85</integer>
 		</dict>
-		<key>4456E2CA-9DE9-47D4-9ACD-A2D9A46CCBD9</key>
+		<key>49778D70-5A39-40D0-B412-3AEEFC0FB088</key>
 		<dict>
 			<key>xpos</key>
-			<integer>280</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>710</integer>
+			<integer>55</integer>
 		</dict>
-		<key>68AA05EF-54ED-4E8B-A7E8-A024BEF9CD03</key>
+		<key>70E414DC-BC7B-4DC4-8316-E78DE658D2ED</key>
 		<dict>
 			<key>xpos</key>
-			<integer>275</integer>
+			<integer>565</integer>
 			<key>ypos</key>
-			<integer>165</integer>
+			<integer>220</integer>
 		</dict>
 		<key>728B5A4C-49FB-4657-8E62-EF5B81E0ACCA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>645</integer>
-		</dict>
-		<key>802D5FBC-D566-4EAB-849F-AC9AABD6AE6F</key>
-		<dict>
-			<key>xpos</key>
-			<integer>280</integer>
-			<key>ypos</key>
-			<integer>440</integer>
-		</dict>
-		<key>8677B646-2120-426B-AAA4-F0AAFAEF43EE</key>
-		<dict>
-			<key>xpos</key>
-			<integer>270</integer>
-			<key>ypos</key>
-			<integer>40</integer>
-		</dict>
-		<key>AE2FF55E-67CB-4A10-A78C-EB23A388A78D</key>
-		<dict>
-			<key>xpos</key>
-			<integer>280</integer>
-			<key>ypos</key>
-			<integer>590</integer>
+			<integer>265</integer>
 		</dict>
 		<key>AE8B0F21-A389-4316-8E23-D5647A36D2B2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>25</integer>
 		</dict>
-		<key>E18687F9-95DD-4A79-8DF4-3592C9C6286B</key>
+		<key>BEB65075-1263-4D24-808C-B6B29E5C3C15</key>
 		<dict>
 			<key>xpos</key>
-			<integer>275</integer>
+			<integer>565</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>100</integer>
+		</dict>
+		<key>C8A8002F-B413-4509-B43A-9E7776401A27</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>175</integer>
+		</dict>
+		<key>CADF9BD6-3F0B-4373-9DF9-340508615B79</key>
+		<dict>
+			<key>xpos</key>
+			<integer>395</integer>
+			<key>ypos</key>
+			<integer>135</integer>
+		</dict>
+		<key>D427E874-D8B4-470E-8C2F-D6EFC48348BB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>565</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1030</integer>
+			<key>ypos</key>
+			<integer>365</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>external_device</key>
+		<string>DELL U2720Q</string>
+		<key>headphones_device</key>
+		<string>External Headphones</string>
+		<key>speakers_device</key>
+		<string>MacBook Pro Speakers</string>
+	</dict>
+	<key>version</key>
+	<string>0.2.0</string>
 	<key>webaddress</key>
 	<string>Credit to https://agileadam.com/2020/05/switch-audio-input-output-device-using-alfred/</string>
 </dict>
