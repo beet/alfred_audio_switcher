@@ -335,11 +335,11 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>asm</string>
+				<string>asx</string>
 				<key>subtext</key>
 				<string>WARNING: loud, no system volume contorl</string>
 				<key>text</key>
-				<string>Switch audio output to monitor</string>
+				<string>Switch audio output to external device</string>
 				<key>withspace</key>
 				<false/>
 			</dict>

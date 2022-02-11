@@ -26,9 +26,9 @@ Currently hard-coded to the audio device called "External Headphones"
 
 Currently hard-coded to the audio device called "MacBook Pro Speakers"
 
-## Switch to monitor
+## Switch to external device
 
-* Keyword: `asm`
+* Keyword: `asx`
 
 Currently hard-coded to the audio device called "DELL U2720Q", which happens to be my monitor.
 
