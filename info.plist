@@ -19,6 +19,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>09628237-FC1A-4F03-8A93-0F4788E06FB3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1968F288-3B50-4AC0-937E-1D82912AB1B5</key>
 		<array>
 			<dict>
@@ -63,26 +86,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -171,16 +174,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -315,26 +308,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>D948D25C-D746-40A9-9BB0-DFF412AE65F1</key>
 		<array>
@@ -351,26 +324,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -396,26 +349,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -871,6 +804,21 @@ print json
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>soundname</key>
+				<string>Funk</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -937,6 +885,27 @@ print json
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Audio Switcher</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>09628237-FC1A-4F03-8A93-0F4788E06FB3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -990,42 +959,6 @@ print json
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Audio output switched to {query}</string>
-				<key>title</key>
-				<string>Audio Switcher</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>soundname</key>
-				<string>Funk</string>
-				<key>systemsound</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
-			<key>uid</key>
-			<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Alfred Workflow to switch audio devices.
@@ -1039,6 +972,13 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>145</integer>
+		</dict>
+		<key>09628237-FC1A-4F03-8A93-0F4788E06FB3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1665</integer>
+			<key>ypos</key>
+			<integer>355</integer>
 		</dict>
 		<key>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</key>
 		<dict>
@@ -1071,9 +1011,9 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<key>33383FFA-0734-4D1B-8544-AF2BE673B5E8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1470</integer>
+			<integer>1665</integer>
 			<key>ypos</key>
-			<integer>555</integer>
+			<integer>235</integer>
 		</dict>
 		<key>49778D70-5A39-40D0-B412-3AEEFC0FB088</key>
 		<dict>
@@ -1182,13 +1122,6 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
-		<key>FF1FE5F3-2E59-4514-8E4B-2FA8ABC421CB</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1470</integer>
-			<key>ypos</key>
-			<integer>425</integer>
-		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
@@ -1206,7 +1139,7 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<string>external_device</string>
 	</array>
 	<key>version</key>
-	<string>0.3.0</string>
+	<string>0.3.1</string>
 	<key>webaddress</key>
 	<string>Credit to https://agileadam.com/2020/05/switch-audio-input-output-device-using-alfred/</string>
 </dict>
