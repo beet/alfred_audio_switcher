@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.beet.alfred_audio_switcher</string>
+	<string></string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -914,12 +914,6 @@ print json
 				<integer>102</integer>
 				<key>script</key>
 				<string>query=$1
-
-if [ "$1" = "Bose TV Speaker" ]; 
-then
-	/opt/homebrew/bin/bluetoothconnector -c 78-2b-64-61-cc-95
-fi
-
 
 $audioswitch_path -s "$query"</string>
 				<key>scriptargtype</key>
