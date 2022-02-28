@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.beet.alfred_audio_switcher</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>059C7DE3-D813-487B-9203-42E1B0683513</key>
@@ -120,11 +122,49 @@
 				<false/>
 			</dict>
 		</array>
+		<key>525F5E84-1DDA-4BC2-AE06-2A007CC60F42</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>60AE39BC-F324-49E0-A554-2C945CFC8458</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>548FC2F7-5327-4242-BA1A-CAEBBEB41FF2</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>1968F288-3B50-4AC0-937E-1D82912AB1B5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>60AE39BC-F324-49E0-A554-2C945CFC8458</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F26E162-AE62-4CA1-8141-1CF497E4B925</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E39327B0-7BD5-413C-AB58-8C271E056095</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E6E9F145-B25A-456D-8B5B-82EA3E62EC13</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -286,6 +326,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D59239E5-888F-44C4-8C72-49FCF029D846</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>525F5E84-1DDA-4BC2-AE06-2A007CC60F42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D6209BF9-6CC3-41A8-8479-11F28E98278B</key>
 		<array>
 			<dict>
@@ -349,6 +402,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E6E9F145-B25A-456D-8B5B-82EA3E62EC13</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>18DD4ECD-D3CC-4456-8B95-C6A6E045AC87</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -555,7 +621,9 @@
 				<key>script</key>
 				<string>require "json"
 
-devices = `/usr/local/bin/switchaudiosource -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
+audioswitch = ENV["audioswitch_path"]
+
+devices = `#{audioswitch} -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
 
 json = { items: devices }.to_json
 
@@ -847,7 +915,13 @@ print json
 				<key>script</key>
 				<string>query=$1
 
-/usr/local/bin/switchaudiosource -s "$query"</string>
+if [ "$1" = "Bose TV Speaker" ]; 
+then
+	/opt/homebrew/bin/bluetoothconnector -c 78-2b-64-61-cc-95
+fi
+
+
+$audioswitch_path -s "$query"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -933,11 +1007,14 @@ print json
 				<key>script</key>
 				<string>require "json"
 
-devices = `/usr/local/bin/switchaudiosource -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
+audioswitch = ENV["audioswitch_path"]
+devices = `#{audioswitch} -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
 
 json = { items: devices }.to_json
 
 print json
+
+
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -958,6 +1035,157 @@ print json
 			<string>197D094B-47AC-495F-9397-41F710D42765</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>Path not found</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>3F26E162-AE62-4CA1-8141-1CF497E4B925</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:audioswitch_path}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>nf</string>
+						<key>outputlabel</key>
+						<string>nf</string>
+						<key>uid</key>
+						<string>E39327B0-7BD5-413C-AB58-8C271E056095</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>60AE39BC-F324-49E0-A554-2C945CFC8458</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+if [ "$query" ]; then
+	SWITCHPATH="$1"
+elif [ -f /usr/lib/switchaudiosource ]; then
+    SWITCHPATH="/usr/lib/switchaudiosource"
+elif [ -f /opt/homebrew/bin/switchaudiosource ]; then
+	SWITCHPATH="/opt/homebrew/bin/switchaudiosource"
+else
+	SWITCHPATH"nf"
+fi
+
+/usr/libexec/PlistBuddy -c "Set :variables:audioswitch_path \"$SWITCHPATH\"" info.plist</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>525F5E84-1DDA-4BC2-AE06-2A007CC60F42</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>asc</string>
+				<key>subtext</key>
+				<string>If you installed the binary in a custom path, pass it as argument.</string>
+				<key>text</key>
+				<string>Configure autoswitch path</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D59239E5-888F-44C4-8C72-49FCF029D846</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Funk</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>E6E9F145-B25A-456D-8B5B-82EA3E62EC13</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Configuration completed</string>
+				<key>title</key>
+				<string>Audio Switcher</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>18DD4ECD-D3CC-4456-8B95-C6A6E045AC87</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -985,7 +1213,14 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>xpos</key>
 			<integer>1465</integer>
 			<key>ypos</key>
-			<integer>295</integer>
+			<integer>290</integer>
+		</dict>
+		<key>18DD4ECD-D3CC-4456-8B95-C6A6E045AC87</key>
+		<dict>
+			<key>xpos</key>
+			<integer>815</integer>
+			<key>ypos</key>
+			<integer>610</integer>
 		</dict>
 		<key>1968F288-3B50-4AC0-937E-1D82912AB1B5</key>
 		<dict>
@@ -1015,6 +1250,13 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>235</integer>
 		</dict>
+		<key>3F26E162-AE62-4CA1-8141-1CF497E4B925</key>
+		<dict>
+			<key>xpos</key>
+			<integer>630</integer>
+			<key>ypos</key>
+			<integer>480</integer>
+		</dict>
 		<key>49778D70-5A39-40D0-B412-3AEEFC0FB088</key>
 		<dict>
 			<key>xpos</key>
@@ -1022,12 +1264,26 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>55</integer>
 		</dict>
+		<key>525F5E84-1DDA-4BC2-AE06-2A007CC60F42</key>
+		<dict>
+			<key>xpos</key>
+			<integer>265</integer>
+			<key>ypos</key>
+			<integer>550</integer>
+		</dict>
 		<key>548FC2F7-5327-4242-BA1A-CAEBBEB41FF2</key>
 		<dict>
 			<key>xpos</key>
 			<integer>905</integer>
 			<key>ypos</key>
 			<integer>115</integer>
+		</dict>
+		<key>60AE39BC-F324-49E0-A554-2C945CFC8458</key>
+		<dict>
+			<key>xpos</key>
+			<integer>475</integer>
+			<key>ypos</key>
+			<integer>530</integer>
 		</dict>
 		<key>620BA959-FAC3-4CC8-A160-AA818683968E</key>
 		<dict>
@@ -1101,6 +1357,13 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>160</integer>
 		</dict>
+		<key>D59239E5-888F-44C4-8C72-49FCF029D846</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>550</integer>
+		</dict>
 		<key>D6209BF9-6CC3-41A8-8479-11F28E98278B</key>
 		<dict>
 			<key>xpos</key>
@@ -1122,9 +1385,18 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
+		<key>E6E9F145-B25A-456D-8B5B-82EA3E62EC13</key>
+		<dict>
+			<key>xpos</key>
+			<integer>635</integer>
+			<key>ypos</key>
+			<integer>610</integer>
+		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
+		<key>audioswitch_path</key>
+		<string></string>
 		<key>external_device</key>
 		<string></string>
 		<key>headphones_device</key>
@@ -1134,12 +1406,13 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
+		<string>audioswitch_path</string>
 		<string>headphones_device</string>
-		<string>speakers_device</string>
 		<string>external_device</string>
+		<string>speakers_device</string>
 	</array>
 	<key>version</key>
-	<string>0.3.1</string>
+	<string>0.4.1</string>
 	<key>webaddress</key>
 	<string>Credit to https://agileadam.com/2020/05/switch-audio-input-output-device-using-alfred/</string>
 </dict>
