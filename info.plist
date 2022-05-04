@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.beet.alfred_audio_switcher</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
