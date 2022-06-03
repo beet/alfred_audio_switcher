@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.beet.alfred_audio_switcher</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>059C7DE3-D813-487B-9203-42E1B0683513</key>
@@ -133,11 +135,58 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6BAA32B6-8AB0-4144-85F2-24D886B477D8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4FE1F8FB-702B-4376-97D0-5A156EC1395E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E39327B0-7BD5-413C-AB58-8C271E056095</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8DD2D80C-83E0-48CC-AAB1-50C062CAEAEE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8DD2D80C-83E0-48CC-AAB1-50C062CAEAEE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E39327B0-7BD5-413C-AB58-8C271E056095</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>73E94FD2-7DA5-4AFA-9246-144509D75D0A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>70E414DC-BC7B-4DC4-8316-E78DE658D2ED</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DC5AEE40-4C20-47A1-9B39-972783E5FDE4</string>
+				<string>D5E09E98-C428-4634-AC59-E74EDF974AD0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -212,7 +261,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DC5AEE40-4C20-47A1-9B39-972783E5FDE4</string>
+				<string>D5E09E98-C428-4634-AC59-E74EDF974AD0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C53A449E-1DA9-4409-80E7-5B0DF8412174</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6BAA32B6-8AB0-4144-85F2-24D886B477D8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -277,7 +339,32 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>D5E09E98-C428-4634-AC59-E74EDF974AD0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D5E09E98-C428-4634-AC59-E74EDF974AD0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>DC5AEE40-4C20-47A1-9B39-972783E5FDE4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F4EB87FF-82A8-442F-A2D6-CD7371BE830C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C53A449E-1DA9-4409-80E7-5B0DF8412174</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -371,47 +458,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ash</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Switch audio output to headphones</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>AE8B0F21-A389-4316-8E23-D5647A36D2B2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>selected_device</key>
-					<string>headphones_device</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>49778D70-5A39-40D0-B412-3AEEFC0FB088</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -432,17 +478,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{var:headphones_device}</string>
-				<key>passthroughargument</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ash</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Switch audio output to headphones</string>
+				<key>withspace</key>
 				<false/>
-				<key>variables</key>
-				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>BEB65075-1263-4D24-808C-B6B29E5C3C15</string>
+			<string>AE8B0F21-A389-4316-8E23-D5647A36D2B2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -530,6 +580,26 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>selected_device</key>
+					<string>headphones_device</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>49778D70-5A39-40D0-B412-3AEEFC0FB088</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -555,7 +625,9 @@
 				<key>script</key>
 				<string>require "json"
 
-devices = `/usr/local/bin/switchaudiosource -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
+audioswitch = ENV["audioswitch_path"]
+
+devices = `#{audioswitch} -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
 
 json = { items: devices }.to_json
 
@@ -615,6 +687,73 @@ print json
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>D6209BF9-6CC3-41A8-8479-11F28E98278B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Audio device blank</string>
+						<key>uid</key>
+						<string>0BCCAE4F-73D3-45F2-8954-5B9C1BD40AD1</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>DC5AEE40-4C20-47A1-9B39-972783E5FDE4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:headphones_device}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BEB65075-1263-4D24-808C-B6B29E5C3C15</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>external_device</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D948D25C-D746-40A9-9BB0-DFF412AE65F1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -704,26 +843,26 @@ print json
 				<array>
 					<dict>
 						<key>inputstring</key>
-						<string></string>
+						<string>{var:audioswitch_path}</string>
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>matchstring</key>
 						<string></string>
 						<key>outputlabel</key>
-						<string>Audio device blank</string>
+						<string>audioswitch configured</string>
 						<key>uid</key>
-						<string>0BCCAE4F-73D3-45F2-8954-5B9C1BD40AD1</string>
+						<string>F4EB87FF-82A8-442F-A2D6-CD7371BE830C</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
-				<string>else</string>
+				<string>audioswitch not found</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>DC5AEE40-4C20-47A1-9B39-972783E5FDE4</string>
+			<string>D5E09E98-C428-4634-AC59-E74EDF974AD0</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -741,6 +880,21 @@ print json
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>D427E874-D8B4-470E-8C2F-D6EFC48348BB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Funk</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -768,26 +922,6 @@ print json
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>external_device</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>D948D25C-D746-40A9-9BB0-DFF412AE65F1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
 				<string>{var:external_device}</string>
 				<key>passthroughargument</key>
 				<false/>
@@ -804,15 +938,112 @@ print json
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>soundname</key>
-				<string>Funk</string>
-				<key>systemsound</key>
-				<true/>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Please select your audio device again</string>
+				<key>title</key>
+				<string>Configured audioswitch</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
+			<string>4FE1F8FB-702B-4376-97D0-5A156EC1395E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+$audioswitch_path -s "$query"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+# `which switchaudiosource` can't find binaries in /usr/loca/bin/
+if [ -f /usr/lib/switchaudiosource ]; then
+    SWITCHPATH="/usr/lib/switchaudiosource"
+elif [ -f /opt/homebrew/bin/switchaudiosource ]; then
+	SWITCHPATH="/opt/homebrew/bin/switchaudiosource"
+elif [ -f /usr/local/bin/switchaudiosource ]; then
+	SWITCHPATH="/usr/local/bin/switchaudiosource"
+else
+	SWITCHPATH="nf"
+fi
+
+/usr/libexec/PlistBuddy -c "Set :variables:audioswitch_path \"$SWITCHPATH\"" info.plist</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C53A449E-1DA9-4409-80E7-5B0DF8412174</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:audioswitch_path}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>nf</string>
+						<key>outputlabel</key>
+						<string>audioswitch found</string>
+						<key>uid</key>
+						<string>E39327B0-7BD5-413C-AB58-8C271E056095</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>audioswitch not found</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>6BAA32B6-8AB0-4144-85F2-24D886B477D8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -840,27 +1071,17 @@ print json
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>query=$1
-
-/usr/local/bin/switchaudiosource -s "$query"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>soundname</key>
+				<string>Funk</string>
+				<key>systemsound</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
-			<string>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</string>
+			<string>8DD2D80C-83E0-48CC-AAB1-50C062CAEAEE</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -906,6 +1127,27 @@ print json
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Have you run `brew install switchaudio-osx`?</string>
+				<key>title</key>
+				<string>audioswitch not found</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>73E94FD2-7DA5-4AFA-9246-144509D75D0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -933,11 +1175,14 @@ print json
 				<key>script</key>
 				<string>require "json"
 
-devices = `/usr/local/bin/switchaudiosource -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
+audioswitch = ENV["audioswitch_path"]
+devices = `#{audioswitch} -a`.split(/\n/).map {|device_name| { title: device_name, subtitle: device_name, arg: device_name, autocomplete: device_name, match: device_name }}
 
 json = { items: devices }.to_json
 
 print json
+
+
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -976,23 +1221,23 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<key>09628237-FC1A-4F03-8A93-0F4788E06FB3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1665</integer>
+			<integer>1850</integer>
 			<key>ypos</key>
-			<integer>355</integer>
+			<integer>295</integer>
 		</dict>
 		<key>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1465</integer>
+			<integer>1650</integer>
 			<key>ypos</key>
-			<integer>295</integer>
+			<integer>230</integer>
 		</dict>
 		<key>1968F288-3B50-4AC0-937E-1D82912AB1B5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1090</integer>
+			<integer>1275</integer>
 			<key>ypos</key>
-			<integer>105</integer>
+			<integer>50</integer>
 		</dict>
 		<key>197D094B-47AC-495F-9397-41F710D42765</key>
 		<dict>
@@ -1011,9 +1256,9 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<key>33383FFA-0734-4D1B-8544-AF2BE673B5E8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1665</integer>
+			<integer>1850</integer>
 			<key>ypos</key>
-			<integer>235</integer>
+			<integer>175</integer>
 		</dict>
 		<key>49778D70-5A39-40D0-B412-3AEEFC0FB088</key>
 		<dict>
@@ -1022,21 +1267,35 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>55</integer>
 		</dict>
+		<key>4FE1F8FB-702B-4376-97D0-5A156EC1395E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1330</integer>
+			<key>ypos</key>
+			<integer>225</integer>
+		</dict>
 		<key>548FC2F7-5327-4242-BA1A-CAEBBEB41FF2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>905</integer>
+			<integer>1090</integer>
 			<key>ypos</key>
-			<integer>115</integer>
+			<integer>60</integer>
 		</dict>
 		<key>620BA959-FAC3-4CC8-A160-AA818683968E</key>
 		<dict>
 			<key>note</key>
 			<string>Write changes back to workflow environment variables, can take a few seconds to apply.</string>
 			<key>xpos</key>
-			<integer>1465</integer>
+			<integer>1650</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>45</integer>
+		</dict>
+		<key>6BAA32B6-8AB0-4144-85F2-24D886B477D8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1070</integer>
+			<key>ypos</key>
+			<integer>265</integer>
 		</dict>
 		<key>70E414DC-BC7B-4DC4-8316-E78DE658D2ED</key>
 		<dict>
@@ -1052,12 +1311,26 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>265</integer>
 		</dict>
+		<key>73E94FD2-7DA5-4AFA-9246-144509D75D0A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1335</integer>
+			<key>ypos</key>
+			<integer>345</integer>
+		</dict>
 		<key>7D0E02FB-B5A5-458F-AB93-F258E7B30E8B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1245</integer>
+			<integer>1430</integer>
 			<key>ypos</key>
-			<integer>75</integer>
+			<integer>20</integer>
+		</dict>
+		<key>8DD2D80C-83E0-48CC-AAB1-50C062CAEAEE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1485</integer>
+			<key>ypos</key>
+			<integer>290</integer>
 		</dict>
 		<key>AE8B0F21-A389-4316-8E23-D5647A36D2B2</key>
 		<dict>
@@ -1069,9 +1342,9 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<key>B7FE4BF5-5800-4C0B-A6A0-B50CF0203BFF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1365</integer>
+			<integer>1550</integer>
 			<key>ypos</key>
-			<integer>130</integer>
+			<integer>75</integer>
 		</dict>
 		<key>BEB65075-1263-4D24-808C-B6B29E5C3C15</key>
 		<dict>
@@ -1079,6 +1352,13 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<integer>565</integer>
 			<key>ypos</key>
 			<integer>100</integer>
+		</dict>
+		<key>C53A449E-1DA9-4409-80E7-5B0DF8412174</key>
+		<dict>
+			<key>xpos</key>
+			<integer>895</integer>
+			<key>ypos</key>
+			<integer>245</integer>
 		</dict>
 		<key>C8A8002F-B413-4509-B43A-9E7776401A27</key>
 		<dict>
@@ -1101,30 +1381,39 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 			<key>ypos</key>
 			<integer>160</integer>
 		</dict>
+		<key>D5E09E98-C428-4634-AC59-E74EDF974AD0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>685</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
 		<key>D6209BF9-6CC3-41A8-8479-11F28E98278B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1245</integer>
+			<integer>1430</integer>
 			<key>ypos</key>
-			<integer>130</integer>
+			<integer>75</integer>
 		</dict>
 		<key>D948D25C-D746-40A9-9BB0-DFF412AE65F1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1245</integer>
+			<integer>1430</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>135</integer>
 		</dict>
 		<key>DC5AEE40-4C20-47A1-9B39-972783E5FDE4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>710</integer>
+			<integer>895</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>95</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
+		<key>audioswitch_path</key>
+		<string></string>
 		<key>external_device</key>
 		<string></string>
 		<key>headphones_device</key>
@@ -1134,12 +1423,13 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
+		<string>audioswitch_path</string>
 		<string>headphones_device</string>
-		<string>speakers_device</string>
 		<string>external_device</string>
+		<string>speakers_device</string>
 	</array>
 	<key>version</key>
-	<string>0.3.1</string>
+	<string>0.4.1</string>
 	<key>webaddress</key>
 	<string>Credit to https://agileadam.com/2020/05/switch-audio-input-output-device-using-alfred/</string>
 </dict>
