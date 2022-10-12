@@ -43,3 +43,11 @@ Can use this at any time to present a list of _all_ audio devices currently conn
 ![pic](images/select_audio_device.png)
 
 Does not save the selected value.
+
+## External URL handlers
+
+I have these setup with [Karabiner-Elements](https://karabiner-elements.pqrs.org) to fire from a macro-pad:
+
+* Switch to headphones: `alfred://runtrigger/com.beet.alfred_audio_switcher/headphones`
+* Switch to speakers: `alfred://runtrigger/com.beet.alfred_audio_switcher/speakers`
+

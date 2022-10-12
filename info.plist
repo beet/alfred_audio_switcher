@@ -96,6 +96,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>27635CD1-FEF3-473B-B173-A9C6D36543C3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49778D70-5A39-40D0-B412-3AEEFC0FB088</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2F7E8A8B-5060-4A77-B416-83E500C7261F</key>
 		<array>
 			<dict>
@@ -249,6 +262,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>620BA959-FAC3-4CC8-A160-AA818683968E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BB8F9D78-E6B3-4C36-BF70-3FA1EB8DDBD2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8A8002F-B413-4509-B43A-9E7776401A27</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -569,31 +595,13 @@
 				</array>
 				<key>elselabel</key>
 				<string></string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>1968F288-3B50-4AC0-937E-1D82912AB1B5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>selected_device</key>
-					<string>headphones_device</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>49778D70-5A39-40D0-B412-3AEEFC0FB088</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -712,6 +720,8 @@ print json
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -734,6 +744,26 @@ print json
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>BEB65075-1263-4D24-808C-B6B29E5C3C15</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>selected_device</key>
+					<string>headphones_device</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>49778D70-5A39-40D0-B412-3AEEFC0FB088</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -807,6 +837,8 @@ print json
 				</array>
 				<key>elselabel</key>
 				<string></string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -818,21 +850,15 @@ print json
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>asp</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Switch audio output to speakers</string>
-				<key>withspace</key>
-				<false/>
+				<key>availableviaurlhandler</key>
+				<true/>
+				<key>triggerid</key>
+				<string>headphones</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>059C7DE3-D813-487B-9203-42E1B0683513</string>
+			<string>27635CD1-FEF3-473B-B173-A9C6D36543C3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -858,6 +884,8 @@ print json
 				</array>
 				<key>elselabel</key>
 				<string>audioswitch not found</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -895,26 +923,6 @@ print json
 			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
 			<string>33383FFA-0734-4D1B-8544-AF2BE673B5E8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>selected_device</key>
-					<string>speakers_device</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>C8A8002F-B413-4509-B43A-9E7776401A27</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1020,6 +1028,27 @@ fi
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>asp</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Switch audio output to speakers</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>059C7DE3-D813-487B-9203-42E1B0683513</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -1039,32 +1068,13 @@ fi
 				</array>
 				<key>elselabel</key>
 				<string>audioswitch not found</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>6BAA32B6-8AB0-4144-85F2-24D886B477D8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>asx</string>
-				<key>subtext</key>
-				<string>WARNING: loud, no system volume contorl</string>
-				<key>text</key>
-				<string>Switch audio output to external device</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>728B5A4C-49FB-4657-8E62-EF5B81E0ACCA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1080,26 +1090,6 @@ fi
 			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
 			<string>8DD2D80C-83E0-48CC-AAB1-50C062CAEAEE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>selected_device</key>
-					<string>external_device</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>2F7E8A8B-5060-4A77-B416-83E500C7261F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1127,6 +1117,26 @@ fi
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>selected_device</key>
+					<string>speakers_device</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C8A8002F-B413-4509-B43A-9E7776401A27</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -1142,6 +1152,42 @@ fi
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>73E94FD2-7DA5-4AFA-9246-144509D75D0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<true/>
+				<key>triggerid</key>
+				<string>speakers</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>BB8F9D78-E6B3-4C36-BF70-3FA1EB8DDBD2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>asx</string>
+				<key>subtext</key>
+				<string>WARNING: loud, no system volume contorl</string>
+				<key>text</key>
+				<string>Switch audio output to external device</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>728B5A4C-49FB-4657-8E62-EF5B81E0ACCA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1204,6 +1250,26 @@ print json
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>selected_device</key>
+					<string>external_device</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2F7E8A8B-5060-4A77-B416-83E500C7261F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Alfred Workflow to switch audio devices.
@@ -1214,212 +1280,228 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<key>059C7DE3-D813-487B-9203-42E1B0683513</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>145</integer>
+			<real>255</real>
 		</dict>
 		<key>09628237-FC1A-4F03-8A93-0F4788E06FB3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1850</integer>
+			<real>1850</real>
 			<key>ypos</key>
-			<integer>295</integer>
+			<real>295</real>
 		</dict>
 		<key>1495BA6A-8FB6-4DE4-81B5-3CFE151A840E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1650</integer>
+			<real>1650</real>
 			<key>ypos</key>
-			<integer>230</integer>
+			<real>230</real>
 		</dict>
 		<key>1968F288-3B50-4AC0-937E-1D82912AB1B5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1275</integer>
+			<real>1275</real>
 			<key>ypos</key>
-			<integer>50</integer>
+			<real>50</real>
 		</dict>
 		<key>197D094B-47AC-495F-9397-41F710D42765</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<real>1495</real>
 			<key>ypos</key>
-			<integer>395</integer>
+			<real>515</real>
+		</dict>
+		<key>27635CD1-FEF3-473B-B173-A9C6D36543C3</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>135</real>
 		</dict>
 		<key>2F7E8A8B-5060-4A77-B416-83E500C7261F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<real>235</real>
 			<key>ypos</key>
-			<integer>295</integer>
+			<real>545</real>
 		</dict>
 		<key>33383FFA-0734-4D1B-8544-AF2BE673B5E8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1850</integer>
+			<real>1850</real>
 			<key>ypos</key>
-			<integer>175</integer>
+			<real>175</real>
 		</dict>
 		<key>49778D70-5A39-40D0-B412-3AEEFC0FB088</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<real>240</real>
 			<key>ypos</key>
-			<integer>55</integer>
+			<real>110</real>
 		</dict>
 		<key>4FE1F8FB-702B-4376-97D0-5A156EC1395E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1330</integer>
+			<real>1330</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
 		</dict>
 		<key>548FC2F7-5327-4242-BA1A-CAEBBEB41FF2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1090</integer>
+			<real>1090</real>
 			<key>ypos</key>
-			<integer>60</integer>
+			<real>60</real>
 		</dict>
 		<key>620BA959-FAC3-4CC8-A160-AA818683968E</key>
 		<dict>
 			<key>note</key>
 			<string>Write changes back to workflow environment variables, can take a few seconds to apply.</string>
 			<key>xpos</key>
-			<integer>1650</integer>
+			<real>1650</real>
 			<key>ypos</key>
-			<integer>45</integer>
+			<real>45</real>
 		</dict>
 		<key>6BAA32B6-8AB0-4144-85F2-24D886B477D8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1070</integer>
+			<real>1070</real>
 			<key>ypos</key>
-			<integer>265</integer>
+			<real>265</real>
 		</dict>
 		<key>70E414DC-BC7B-4DC4-8316-E78DE658D2ED</key>
 		<dict>
 			<key>xpos</key>
-			<integer>565</integer>
+			<real>565</real>
 			<key>ypos</key>
-			<integer>220</integer>
+			<real>220</real>
 		</dict>
 		<key>728B5A4C-49FB-4657-8E62-EF5B81E0ACCA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>265</integer>
+			<real>515</real>
 		</dict>
 		<key>73E94FD2-7DA5-4AFA-9246-144509D75D0A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1335</integer>
+			<real>1335</real>
 			<key>ypos</key>
-			<integer>345</integer>
+			<real>345</real>
 		</dict>
 		<key>7D0E02FB-B5A5-458F-AB93-F258E7B30E8B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1430</integer>
+			<real>1430</real>
 			<key>ypos</key>
-			<integer>20</integer>
+			<real>20</real>
 		</dict>
 		<key>8DD2D80C-83E0-48CC-AAB1-50C062CAEAEE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1485</integer>
+			<real>1485</real>
 			<key>ypos</key>
-			<integer>290</integer>
+			<real>290</real>
 		</dict>
 		<key>AE8B0F21-A389-4316-8E23-D5647A36D2B2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>25</integer>
+			<real>25</real>
 		</dict>
 		<key>B7FE4BF5-5800-4C0B-A6A0-B50CF0203BFF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1550</integer>
+			<real>1550</real>
 			<key>ypos</key>
-			<integer>75</integer>
+			<real>75</real>
+		</dict>
+		<key>BB8F9D78-E6B3-4C36-BF70-3FA1EB8DDBD2</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>370</real>
 		</dict>
 		<key>BEB65075-1263-4D24-808C-B6B29E5C3C15</key>
 		<dict>
 			<key>xpos</key>
-			<integer>565</integer>
+			<real>565</real>
 			<key>ypos</key>
-			<integer>100</integer>
+			<real>100</real>
 		</dict>
 		<key>C53A449E-1DA9-4409-80E7-5B0DF8412174</key>
 		<dict>
 			<key>xpos</key>
-			<integer>895</integer>
+			<real>895</real>
 			<key>ypos</key>
-			<integer>245</integer>
+			<real>245</real>
 		</dict>
 		<key>C8A8002F-B413-4509-B43A-9E7776401A27</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<real>235</real>
 			<key>ypos</key>
-			<integer>175</integer>
+			<real>340</real>
 		</dict>
 		<key>CADF9BD6-3F0B-4373-9DF9-340508615B79</key>
 		<dict>
 			<key>xpos</key>
-			<integer>395</integer>
+			<real>395</real>
 			<key>ypos</key>
-			<integer>135</integer>
+			<real>135</real>
 		</dict>
 		<key>D427E874-D8B4-470E-8C2F-D6EFC48348BB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>565</integer>
+			<real>565</real>
 			<key>ypos</key>
-			<integer>160</integer>
+			<real>160</real>
 		</dict>
 		<key>D5E09E98-C428-4634-AC59-E74EDF974AD0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>685</integer>
+			<real>685</real>
 			<key>ypos</key>
-			<integer>150</integer>
+			<real>150</real>
 		</dict>
 		<key>D6209BF9-6CC3-41A8-8479-11F28E98278B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1430</integer>
+			<real>1430</real>
 			<key>ypos</key>
-			<integer>75</integer>
+			<real>75</real>
 		</dict>
 		<key>D948D25C-D746-40A9-9BB0-DFF412AE65F1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1430</integer>
+			<real>1430</real>
 			<key>ypos</key>
-			<integer>135</integer>
+			<real>135</real>
 		</dict>
 		<key>DC5AEE40-4C20-47A1-9B39-972783E5FDE4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>895</integer>
+			<real>895</real>
 			<key>ypos</key>
-			<integer>95</integer>
+			<real>95</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>audioswitch_path</key>
-		<string></string>
+		<string>/usr/local/bin/switchaudiosource</string>
 		<key>external_device</key>
 		<string></string>
 		<key>headphones_device</key>
-		<string></string>
+		<string>External Headphones</string>
 		<key>speakers_device</key>
-		<string></string>
+		<string>MacBook Pro Speakers</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
@@ -1429,7 +1511,7 @@ Requires switchaudiosource to be installed with `brew install switchaudio-osx`</
 		<string>speakers_device</string>
 	</array>
 	<key>version</key>
-	<string>0.4.1</string>
+	<string>0.5.0</string>
 	<key>webaddress</key>
 	<string>Credit to https://agileadam.com/2020/05/switch-audio-input-output-device-using-alfred/</string>
 </dict>
